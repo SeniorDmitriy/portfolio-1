@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#111111">
+    <title>New site</title>
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body class="card-page">
+    <div class="site-container">
+        <header class="header catalog-header">
+  <div class="header__container container container-narrow">
+    <button class="btn-reset burger header__burger"><span class="burger__line"></span></button>
+    <nav class="nav header__nav">
+      <ul class="nav__list">
+        <li><a class="nav__link main-link" href="#">Home</a></li>
+        <li><a class="nav__link main-link" href="#">Shop</a></li>
+        <li><a class="nav__link main-link nav__link--current" href="#">Elements</a></li>
+        <li><a class="nav__link main-link" href="#">Blog</a></li>
+        <li><a class="nav__link main-link" href="#">Page</a></li>
+      </ul>
+      <button class="nav__close btn-reset">
+        close
+      </button>
+    </nav>
+    <a href="#" class="logo header__logo catalog-header__logo">
+      <img src="img/header/logo.png" alt="">
+    </a>
+    <ul class="header__shop-nav shop-nav">
+      <li>
+        <form class="shop-nav__search-form search-form" action="#">
+          <button class="shop-nav__link search-form__btn btn-reset"></button>
+        </form>
+      </li>
+      <li>
+        <a href="#" class="shop-nav__link shop-nav__link--user"></a>
+      </li>
+      <li>
+        <a href="#" class="shop-nav__link cart">
+          <span class="cart__icon"></span>
+          <span class="cart__qualitty qualitty">3</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</header>
+
+        <main class="page">
+            <section class="card">
+                <h2 class="visually-hidden">Product card</h2>
+				<div class="breadcrumbs">
+    <div class="container breadcrumbs__container container-narrow">
+        <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link">Home</a></li>
+            <li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link">Shop</a></li>
+            <li class="breadcrumbs__item"><a class="breadcrumbs__link breadcrumbs__link--current">New Arrvals</a></li>
+        </ul>
+        <a href="#" class="card-prev">Prev</a>
+<a href="#" class="card-next">Next</a>
+    </div>
+</div>
+				<div class="card-content">
+					<div class="card-content__top">
+                        <div class="card-top">
+    <div class="container container-narrow">
+        <div class="card-top__left">
+            <div class="card-slider">
+                <div class="card-slider__thumbs">
+                    <div class="card-slider__thumb">
+                        <img src="img/str-3/70 x 90.jpg" alt="">
+                    </div>
+                    <div class="card-slider__thumb">
+                        <img src="img/str-3/70 x 90.jpg" alt="">
+                    </div>
+                    <div class="card-slider__thumb">
+                        <img src="img/str-3/70 x 90.jpg" alt="">
+                    </div>
+                    <div class="card-slider__thumb">
+                        <img src="img/str-3/70 x 90.jpg" alt="">
+                    </div>
+                    <div class="card-slider__thumb">
+                        <img src="img/str-3/70 x 90.jpg" alt="">
+                    </div>
+                </div>
+                <div class="card-slider__main">
+                    <img src="img/str-3/hero.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="card-top__right">
+            <div class="card-info">
+                <span class="card-info__prop product-prop best">Best Seller</span>
+                <h3 class="card-info__title">Brand-Collar popover tunic</h3>
+                <div class="card-info__rate">
+                    <svg class="card-info__rate--current">
+                    <use xlink:href="img/sprite.svg#star"></use>
+                  </svg>
+                    <svg class="card-info__rate--current">
+                        <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+                    <svg class="card-info__rate--current">
+                        <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+                    <svg class="card-info__rate--current">
+                        <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+                    <svg class="card-info__rate-svg">
+                        <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+                    <span>2 Reviwes</span>
+                </div>
+                <div class="card-info__price info-price">
+                    <span class="info-price">$128.00</span>
+                    <span class="card-info__price-old info-price__old">$165.00</span>
+                </div>
+                <p class="card-info_descr">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id saepe aspernatur
+                </p>
+                <div class="card-info__select card-info__first-select color-select">
+                    <p class="color-select__selected">Color:<span>Green</span></p>
+                    <ul class="color-select__list">
+                        <li class="color-select__item"><button class="color-select__btn btn-reset" data-color="red" aria-label="Choice red color" style="background-color: red;"></button></li>
+                        <li class="color-select__item"><button class="color-select__btn btn-reset" data-color="orange" aria-label="Choice orange color" style="background-color: orange;"></button></li>
+                        <li class="color-select__item"><button class="color-select__btn btn-reset color-select__btn--active" data-color="green" aria-label="Choice green color" style="background-color: green;"></button></li>
+                        <li class="color-select__item"><button class="color-select__btn btn-reset" data-color="white" aria-label="Choice white color" style="background-color: white;"></button></li>
+                        <li class="color-select__item"><button class="color-select__btn btn-reset" data-color="black" aria-label="Choice black color" style="background-color: black;"></button></li>
+                        <li class="color-select__item"><button class="color-select__btn btn-reset" data-color="brown" aria-label="Choice brown color" style="background-color: brown;"></button></li>
+                        <li class="color-select__item"><button class="color-select__btn btn-reset" data-color="purple" aria-label="Choice purple color" style="background-color: purple;"></button></li>
+                        <li class="color-select__item"><button class="color-select__btn btn-reset" data-color="gray" aria-label="Choice gray color" style="background-color: gray;"></button></li>
+                    </ul>
+                </div>
+                <div class="card-info__select size-select card-info__second-select">
+                    <p class="size-select__selected">size:<span>Select a size</span></p>
+                    <ul class="size-select__list">
+                        <li class="size-select__item"><button class="size-select__btn btn-reset" aria-label="Choice 23 size">23</button></li>
+                        <li class="size-select__item"><button class="size-select__btn btn-reset" aria-label="Choice 24 size">24</button></li>
+                        <li class="size-select__item"><button class="size-select__btn btn-reset" aria-label="Choice 25 size">25</button></li>
+                        <li class="size-select__item"><button class="size-select__btn btn-reset" aria-label="Choice 26 size">26</button></li>
+                        <li class="size-select__item"><button class="size-select__btn btn-reset" aria-label="Choice 27 size">27</button></li>
+                        <li class="size-select__item"><button class="size-select__btn btn-reset" aria-label="Choice 28 size">28</button></li>
+                        <li class="size-select__item"><button class="size-select__btn btn-reset" aria-label="Choice 29 size">29</button></li>
+                        <li class="size-select__item"><button class="size-select__btn btn-reset" aria-label="Choice 30 size">30</button></li>
+                        <li class="size-select__item"><button class="size-select__btn btn-reset" aria-label="Choice 31 size">31</button></li>
+                    </ul>
+                    <button class="btn-reset size-select__clear">
+                        <svg>
+                            <use xlink:href="img/sprite.svg#close"></use>
+                        </svg>
+                        clear
+                    </button>
+
+                </div>
+                <div class="card-info__stepper stepper">
+                    <button class="btn-reset stepper__btn stepper__btn--minus stepper__btn--disabled" aria-label="minus"><svg>
+                    <use xlink:href="img/sprite.svg#minus"></use>
+                    </svg></button>
+                    <input class="stepper__input" type="text" value="1" maxlength="5">
+                    <button class="btn-reset stepper__btn stepper__btn--plus" aria-label="plus">
+                        <svg>
+                        <use xlink:href="img/sprite.svg#plus"></use>
+                        </svg>
+                    </button>
+                </div>
+                <button class="card-info__btn btn-reset card-info__btn--tocard">Add to card</button>
+                <button class="card-info__btn btn-reset card-info__btn--towishlist">Add to wishlist</button>
+                <div class="card__info-bottom card-bottom">
+                    <div class="card-bottom__item"><span>Sku:</span><a href="#">Fw511</a></div>
+                    <div class="card-bottom__item"><span>Category:</span><a href="#">Thousers,</a> <a href="#">Life Style</a></div>
+                    <div class="card-bottom__item"><span>Tags:</span><a href="#">Designer,</a> <a href="#">Woomen</a></div>
+                    <div class="card-bottom__social">
+                        <span>Share:</span>
+                        <ul class="social">
+                            <li class="social__item">
+                                <a href="#" class="social__link social__link--tw" aria-label="Go to twitter"></a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__link social__link--fb" aria-label="Go to facebook"></a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__link social__link--in" aria-label="Go to instagram"></a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__link social__link--pin" aria-label="Go to pinterest"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                        <div class="card__content-bottom">
+    <div class="card-bottom-content">
+        <div class="container container-narrow">
+            <div class="card-description">
+                <div class="card-description__left">
+                    <ul class="card-description__navigation" data-bar>
+                        <li class="card-description__item"><a href="#one" class="card-description__link card-description__link--active">Description</a></li>
+                        <li class="card-description__item"><a href="#two" class="card-description__link">Additional information</a></li>
+                        <li class="card-description__item"><a href="#free" class="card-description__link">Reviews(2)</a></li>
+                        <li class="card-description__item"><a href="#four" class="card-description__link">Description</a></li>
+                    </ul>
+                </div>
+                <div class="card-description__right">
+                    <div class="card-description__content card-description__content--active" data-target="#one">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis
+                            unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                        </p>
+                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                            adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    </div>
+                    <div class="card-description__content" data-target="#two">
+                        <p>sLorem ipsum dolor sit e cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
+                            voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                        </p>
+                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                            adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    </div>
+                    <div class="card-description__content" data-target="#free">
+                        <p>sLorem ipsum dolor sit e cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
+                            voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                        </p>
+                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                            adipisci velit, sed quia ipsum dolor sit e cil ipsum dolor sit e cil ipsum dolor sit e cil ipsum dolor sit e cilnon numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    </div>
+                    <div class="card-description__content" data-target="#four">
+                        <p>sLorem ipsum dolor sit e cillum dolore ipsum dolor sit e cil ipsum dolor sit e cil ipsum dolor sit e cil ipsum dolor sit e cil ipsum dolor sit e cil ipsum dolor sit e cil ipsum dolor sit e cil ipsum dolor sit e cil ipsum dolor
+                            sit e cil ipsum dolor sit e cil ipsum dolor sit e cil ipsum dolor sit e cil ipsum dolor sit e cil ipsum dolor sit e cil eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
+                            sunt explicabo.
+                        </p>
+                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                            adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-related card__content-related">
+                <h2 class="card-related__title">Related Products</h2>
+                <div class="card-related__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <article class="product">
+                                <div class="product__img">
+                                    <img src="img/product/01.jpg" alt="">
+                                </div>
+                                <span class="product__prop product-prop best">Best Seller</span>
+                                <h3 class="product__title"><a href="">Lorem ipsum dolor sit.</a></h3>
+                                <div class="product-custom">
+                                    <div class="product-custom__price">
+                                        <div class="info-price">
+                                            <span class="info-price__current">$220.00</span>
+                                            <span class="product__old-price info-price__old">$165.00</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-custom__cart">
+                                        <button class="btn-reset to-cart">Add to cart</button>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="product">
+                                <div class="product__img">
+                                    <img src="img/product/01.jpg" alt="">
+                                </div>
+                                <span class="product__prop product-prop best">Best Seller</span>
+                                <h3 class="product__title"><a href="">Lorem ipsum dolor sit.</a></h3>
+                                <span class="product__price">$220.00</span>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="product">
+                                <div class="product__img">
+                                    <img src="img/product/01.jpg" alt="">
+                                </div>
+                                <span class="product__prop product-prop best">Best Seller</span>
+                                <h3 class="product__title"><a href="">Lorem ipsum dolor sit.</a></h3>
+                                <span class="product__price">$220.00</span>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="product">
+                                <div class="product__img">
+                                    <img src="img/product/01.jpg" alt="">
+                                </div>
+                                <span class="product__prop product-prop best">Best Seller</span>
+                                <h3 class="product__title"><a href="">Lorem ipsum dolor sit.</a></h3>
+                                <span class="product__price">$220.00</span>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="product">
+                                <div class="product__img">
+                                    <img src="img/product/01.jpg" alt="">
+                                </div>
+                                <span class="product__prop product-prop best">Best Seller</span>
+                                <h3 class="product__title"><a href="">Lorem ipsum dolor sit.</a></h3>
+                                <span class="product__price">$220.00</span>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination related-pag"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    
+					</div>
+				</div>
+            </section>
+        </main>
+        <footer class="footer footer--2">
+    <div class="container footer__container">
+        <div class="footer__content">
+            <div class="footer__top">
+                <div class="footer__column">
+                    <ul class="social">
+                        <li class="social__item">
+                            <a href="#" class="social__link social__link--tw" aria-label="Go to twitter"></a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link social__link--fb" aria-label="Go to facebook"></a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link social__link--in" aria-label="Go to instagram"></a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link social__link--pin" aria-label="Go to pinterest"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <ul class="footer__list footer__list--row">
+                        <li class="footer__item footer__item--row"><a href="#" class="main-link footer__link--row">Returns Policy</a></li>
+                        <li class="footer__item footer__item--row"><a href="#" class="main-link footer__link--row">Privacy Policy</a></li>
+                        <li class="footer__item footer__item--row"><a href="#" class="main-link footer__link--row">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column footer__column--flex">
+                    <div class="footer__select">
+                        <span class="footer__select-caption">
+                            Currency
+                        </span>
+                        <div class="custom-select custom-select--footer">
+                            <div class="custom-select__top">USD</div>
+                            <div class="custom-select__dropdown">
+                                <ul class="custom-select__list">
+                                    <li class="custom-select__item">USD</li>
+                                    <li class="custom-select__item">EUR</li>
+                                    <li class="custom-select__item">RUB</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__select">
+                        <span class="footer__select-caption">
+                            Language
+                        </span>
+                        <div class="custom-select custom-select--footer">
+                            <div class="custom-select__top">English</div>
+                            <div class="custom-select__dropdown">
+                                <ul class="custom-select__list">
+                                    <li class="custom-select__item">Ukraine</li>
+                                    <li class="custom-select__item">Japane</li>
+                                    <li class="custom-select__item">Russian</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+              <div class="foooter__left"><small class="footer__copy">@2019 Zonex All rights reserverd</small></div>
+              <ul class="footer__right">
+                  <li class="footer__right-item"><img src="img/str-2/payments.png" alt="Mastercard"></li>
+                  <li class="footer__right-item"><img src="img/str-2/payments.png" alt="Mastercard"></li>
+                  <li class="footer__right-item"><img src="img/str-2/payments.png" alt="Mastercard"></li>
+              </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+        <a href="#" class="to-top">
+            <svg>
+            <use xlink:href="img/sprite.svg#up-arrow"></use>
+            </svg>
+        </a>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+

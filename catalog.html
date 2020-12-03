@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#111111">
+    <title>New site</title>
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+    <div class="site-container">
+        <div class="free-delivery">
+            Free delivery from $60 and free returns
+            <button class="free-delivery__btn btn-reset">
+					<svg>
+						<use xlink:href="img/sprite.svg#close"></use>
+					 </svg>
+			</button>
+        </div>
+        <header class="header catalog-header">
+  <div class="header__container container container-narrow">
+    <button class="btn-reset burger header__burger"><span class="burger__line"></span></button>
+    <nav class="nav header__nav">
+      <ul class="nav__list">
+        <li><a class="nav__link main-link" href="#">Home</a></li>
+        <li><a class="nav__link main-link" href="#">Shop</a></li>
+        <li><a class="nav__link main-link nav__link--current" href="#">Elements</a></li>
+        <li><a class="nav__link main-link" href="#">Blog</a></li>
+        <li><a class="nav__link main-link" href="#">Page</a></li>
+      </ul>
+      <button class="nav__close btn-reset">
+        close
+      </button>
+    </nav>
+    <a href="#" class="logo header__logo catalog-header__logo">
+      <img src="img/header/logo.png" alt="">
+    </a>
+    <ul class="header__shop-nav shop-nav">
+      <li>
+        <form class="shop-nav__search-form search-form" action="#">
+          <button class="shop-nav__link search-form__btn btn-reset"></button>
+        </form>
+      </li>
+      <li>
+        <a href="#" class="shop-nav__link shop-nav__link--user"></a>
+      </li>
+      <li>
+        <a href="#" class="shop-nav__link cart">
+          <span class="cart__icon"></span>
+          <span class="cart__qualitty qualitty">3</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</header>
+
+        <main class="page">
+            <section class="hero-catalog">
+    <div class="container hero-catalog__container hero-catalog container-narrow">
+        <div class="hero-catalog__slider">
+            <button class="hero-prev-btn btn-reset">
+                <svg>
+                <use xlink:href="img/sprite.svg#prev-arrow"></use>
+                </svg>
+              </button>
+            <button class="hero-next-btn btn-reset">
+                  <svg>
+                      <use xlink:href="img/sprite.svg#next-arrow"></use>
+                      </svg>
+              </button>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="catalog-slide">
+                        <h2 class="catalog-slide__title">The best thing about going back to school?</h2>
+                        <p class="catalog-slide__descr">This fall denim is king! Denim is officially back in and cool to wear in all its many forms</p>
+                        <div class="catalog-slide__btns">
+                            <a href="#" class="catalog-slide__link catalog-slide__link--dark">Discovery</a>
+                            <a href="#" class="catalog-slide__link catalog-slide__link--light">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="catalog-slide">
+                        <h2 class="catalog-slide__title">Далеко-далеко за словесными, горами </h2>
+                        <p class="catalog-slide__descr">Далеко-далеко, за словесными горами в стране гласных и согласных живут рыбные тексты. Даль, все?</p>
+                        <div class="catalog-slide__btns">
+                            <a href="#" class="catalog-slide__link catalog-slide__link--dark">Discovery</a>
+                            <a href="#" class="catalog-slide__link catalog-slide__link--light">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="catalog-slide">
+                        <h2 class="catalog-slide__title">Далеко-далеко за словесными, горами</h2>
+                        <p class="catalog-slide__descr">Далеко-далеко, за словесными горами в стране гласных и согласных живут рыбные тексты. Даль, все?</p>
+                        <div class="catalog-slide__btns">
+                            <a href="#" class="catalog-slide__link catalog-slide__link--dark">Discovery</a>
+                            <a href="#" class="catalog-slide__link catalog-slide__link--light">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination hero-pag"></div>
+        </div>
+    </div>
+</section>
+            <section class="catalog">
+                <h2 class="visually-hidden">Catalog</h2>
+                <div class="breadcrumbs">
+    <div class="container breadcrumbs__container container-narrow">
+        <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link">Home</a></li>
+            <li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link">Shop</a></li>
+            <li class="breadcrumbs__item"><a class="breadcrumbs__link breadcrumbs__link--current">New Arrvals</a></li>
+        </ul>
+        <a href="#" class="card-prev">Prev</a>
+<a href="#" class="card-next">Next</a>
+    </div>
+</div>
+                <div class="catalog-content">
+                    <div class="container container-narrow">
+                        <div class="catalog-filters">
+  <button class="hide-filters btn-reset">
+    <svg>
+      <use xlink:href="img/sprite.svg#close"></use>
+    </svg>
+   Hide filters
+  </button>
+  <div class="catalog-filter catalog-filter--open">
+    <div class="catalog-filter__top">
+      <div class="catalog-filter__caption">
+        <h3 class="catalog-filter__title">Categories</h3>
+        <span class="catalog-filter__quantity qualitty">1</span>
+      </div>
+      <span class="catalog-filter__toggle"></span>
+    </div>
+    <div class="catalog-filter__bottom">
+      <ul class="catalog-filter__items">
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="All categories">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">All categories</span>
+          </label>
+        </li>
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="Accessories">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">Accessories</span>
+          </label>
+        </li>
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="Dresses">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">Dresses</span>
+          </label>
+        </li>
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="Coats">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">Coats</span>
+          </label>
+        </li>
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="Clothes">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">Clothes</span>
+          </label>
+        </li>
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="T-shirt">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">T-shirt</span>
+          </label>
+        </li>
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="Summer">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">Summer</span>
+          </label>
+        </li>
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="Shirts">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">Shirts</span>
+          </label>
+        </li>
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="Jacket">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">Jacket</span>
+          </label>
+        </li>
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="Short">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">Short</span>
+          </label>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="catalog-filter">
+    <div class="catalog-filter__top">
+      <div class="catalog-filter__caption">
+        <h3 class="catalog-filter__title">Color</h3>
+        <span class="catalog-filter__quantity qualitty">3</span>
+      </div>
+      <span class="catalog-filter__toggle"></span>
+    </div>
+    <div class="catalog-filter__bottom">
+      <ul class="catalog-filter__items">
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="All categories">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">All categories</span>
+          </label>
+        </li>
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="Accessories">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">Accessories</span>
+          </label>
+        </li>
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="Dresses">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">Dresses</span>
+          </label>
+        </li>
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="Coats">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">Coats</span>
+          </label>
+        </li>
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="Clothes">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">Clothes</span>
+          </label>
+        </li>
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="T-shirt">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">T-shirt</span>
+          </label>
+        </li>
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="Summer">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">Summer</span>
+          </label>
+        </li>
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="Shirts">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">Shirts</span>
+          </label>
+        </li>
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="Jacket">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">Jacket</span>
+          </label>
+        </li>
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="Short">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">Short</span>
+          </label>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="catalog-filter">
+    <div class="catalog-filter__top">
+      <div class="catalog-filter__caption">
+        <h3 class="catalog-filter__title">Color</h3>
+        <span class="catalog-filter__quantity qualitty">3</span>
+      </div>
+      <span class="catalog-filter__toggle"></span>
+    </div>
+    <div class="catalog-filter__bottom">
+      <ul class="catalog-filter__items">
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="All categories">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">All categories</span>
+          </label>
+        </li>
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="Accessories">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">Accessories</span>
+          </label>
+        </li>
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="Dresses">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">Dresses</span>
+          </label>
+        </li>
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="Coats">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">Coats</span>
+          </label>
+        </li>
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="Clothes">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">Clothes</span>
+          </label>
+        </li>
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="T-shirt">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">T-shirt</span>
+          </label>
+        </li>
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="Summer">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">Summer</span>
+          </label>
+        </li>
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="Shirts">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">Shirts</span>
+          </label>
+        </li>
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="Jacket">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">Jacket</span>
+          </label>
+        </li>
+        <li class="catalog-filter__item">
+          <label class="custom-checkbox" data-text="Short">
+            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+            <span class="custom-checkbox__text">Short</span>
+          </label>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+ <div class="catalog-grid">
+  <div class="catalog-grid__props catalog-props">
+    <div class="catalog-props__top">
+      <button class="btn-reset catalog-mobile-filters">
+        <svg>
+          <use xlink:href="img/sprite.svg#filter"></use>
+        </svg>
+        <span> filters</span>
+      </button>
+      <div class="catalog-props__columns catalog-columns">
+        <span class="catalog-columns__text">Columb Number:</span>
+        <ul class="catalog-columns__list">
+          <li class="catalog-columns__item"><button class="btn-reset main-link catalog-columns__btn"
+              data-columns="3">3</button></li>
+          <li class="catalog-columns__item"><button
+              class="btn-reset main-link catalog-columns__btn catalog-columns__btn--current" data-columns="4">4</button>
+          </li>
+          <li class="catalog-columns__item"><button class="btn-reset main-link catalog-columns__btn"
+              data-columns="5">5</button></li>
+        </ul>
+      </div>
+      <div class="custom-select">
+        <div class="custom-select__top">Sort by latest</div>
+        <div class="custom-select__dropdown">
+          <ul class="custom-select__list">
+            <li class="custom-select__item">Sort by Lest</li>
+            <li class="custom-select__item">Sort by Price</li>
+            <li class="custom-select__item">Sort by smth</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="catalog-props__choice catalog-choice">
+      <button class="btn-reset catalog-choice__clear">Clear all</button>
+    </div>
+  </div>
+  <ul class="catalog-grid__content" data-grid-columns="4">
+    <li class="catalog-grid__item">
+      <article class="product">
+        <div class="product__img">
+          <img src="img/product/01.jpg" alt="">
+        </div>
+        <span class="product__prop product-prop new">New</span>
+        <h3 class="product__title"><a href="">Lorem ipsum dolor sit.</a></h3>
+        <span class="product__price">$220.00</span>
+      </article>
+    </li>
+    <li class="catalog-grid__item">
+      <article class="product">
+        <div class="product__img">
+          <img src="img/product/01.jpg" alt="">
+        </div>
+        <h3 class="product__title"><a href="">Lorem ipsum dolor sit.</a></h3>
+        <span class="product__price">$220.00</span>
+      </article>
+    </li>
+    <li class="catalog-grid__item">
+      <article class="product">
+        <div class="product__img">
+          <img src="img/product/01.jpg" alt="">
+        </div>
+        <h3 class="product__title"><a href="">Lorem ipsum dolor sit.</a></h3>
+        <span class="product__price">$220.00</span>
+      </article>
+    </li>
+    <li class="catalog-grid__item">
+      <article class="product">
+        <div class="product__img">
+          <img src="img/product/01.jpg" alt="">
+        </div>
+        <span class="product__prop product-prop best">Best Seller</span>
+        <h3 class="product__title"><a href="">Lorem ipsum dolor sit.</a></h3>
+        <span class="product__price">$220.00</span>
+      </article>
+    </li>
+    <li class="catalog-grid__item">
+      <article class="product">
+        <div class="product__img">
+          <img src="img/product/01.jpg" alt="">
+        </div>
+        <span class="product__prop product-prop best">Best Seller</span>
+        <h3 class="product__title"><a href="">Lorem ipsum dolor sit.</a></h3>
+        <span class="product__price">$220.00</span>
+      </article>
+    </li>
+    <li class="catalog-grid__item">
+      <article class="product">
+        <div class="product__img">
+          <span class="product__sale sale">Sale</span>
+          <img src="img/product/01.jpg" alt="">
+        </div>
+        <span class="product__prop product-prop hot">Hot</span>
+        <h3 class="product__title"><a href="">Lorem ipsum dolor sit.</a></h3>
+        <div class="info-price">
+          <span class="info-price__current">$220.00</span>
+          <span class="product__old-price info-price__old">$165.00</span>
+        </div>
+      </article>
+    </li>
+    <li class="catalog-grid__item">
+      <article class="product">
+        <div class="product__img">
+          <img src="img/product/01.jpg" alt="">
+        </div>
+        <span class="product__prop product-prop top">Top Rate</span>
+        <h3 class="product__title"><a href="">Lorem ipsum dolor sit.</a></h3>
+        <span class="product__price">$220.00</span>
+      </article>
+    </li>
+    <li class="catalog-grid__item">
+      <article class="product">
+        <div class="product__img">
+          <img src="img/product/01.jpg" alt="">
+        </div>
+        <span class="product__prop product-prop few">only a few left</span>
+        <h3 class="product__title"><a href="">Lorem ipsum dolor sit.</a></h3>
+        <span class="product__price">$80.00 – $125.00</span>
+      </article>
+    </li>
+    <li class="catalog-grid__item">
+      <article class="product">
+        <div class="product__img">
+          <img src="img/product/01.jpg" alt="">
+        </div>
+        <span class="product__prop product-prop best">Best Seller</span>
+        <h3 class="product__title"><a href="">Lorem ipsum dolor sit.</a></h3>
+        <span class="product__price">$220.00</span>
+      </article>
+    </li>
+    <li class="catalog-grid__item">
+      <article class="product">
+        <div class="product__img">
+          <img src="img/product/01.jpg" alt="">
+        </div>
+        <span class="product__prop product-prop best">Best Seller</span>
+        <h3 class="product__title"><a href="">Lorem ipsum dolor sit.</a></h3>
+        <span class="product__price">$220.00</span>
+      </article>
+    </li>
+    <li class="catalog-grid__item">
+      <article class="product">
+        <div class="product__img">
+          <img src="img/product/01.jpg" alt="">
+        </div>
+        <span class="product__prop product-prop hot">Hot</span>
+        <h3 class="product__title"><a href="">Lorem ipsum dolor sit.</a></h3>
+        <span class="product__price">$220.00</span>
+      </article>
+    </li>
+    <li class="catalog-grid__item">
+      <article class="product">
+        <div class="product__img">
+          <img src="img/product/01.jpg" alt="">
+        </div>
+        <span class="product__prop product-prop top">Top Rate</span>
+        <h3 class="product__title"><a href="">Lorem ipsum dolor sit.</a></h3>
+        <span class="product__price">$220.00</span>
+      </article>
+    </li>
+  </ul>
+  <ul class="pagination">
+    <li class="pagination__item"><a class="pagination__link pagination__link--current">1</a></li>
+    <li class="pagination__item"><a class="pagination__link" href="#">2</a></li>
+    <li class="pagination__item"><a class="pagination__link" href="#">3</a></li>
+    <li class="pagination__item"><a class="pagination__link" href="#">4</a></li>
+    <li class="pagination__item"><a class="pagination__link" href="#">
+        Next
+        <svg>
+          <use xlink:href="img/sprite.svg#arrow-right"></use>
+        </svg>
+      </a></li>
+  </ul>
+</div>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer footer--2">
+    <div class="container footer__container">
+        <div class="footer__content">
+            <div class="footer__top">
+                <div class="footer__column">
+                    <ul class="social">
+                        <li class="social__item">
+                            <a href="#" class="social__link social__link--tw" aria-label="Go to twitter"></a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link social__link--fb" aria-label="Go to facebook"></a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link social__link--in" aria-label="Go to instagram"></a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link social__link--pin" aria-label="Go to pinterest"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <ul class="footer__list footer__list--row">
+                        <li class="footer__item footer__item--row"><a href="#" class="main-link footer__link--row">Returns Policy</a></li>
+                        <li class="footer__item footer__item--row"><a href="#" class="main-link footer__link--row">Privacy Policy</a></li>
+                        <li class="footer__item footer__item--row"><a href="#" class="main-link footer__link--row">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column footer__column--flex">
+                    <div class="footer__select">
+                        <span class="footer__select-caption">
+                            Currency
+                        </span>
+                        <div class="custom-select custom-select--footer">
+                            <div class="custom-select__top">USD</div>
+                            <div class="custom-select__dropdown">
+                                <ul class="custom-select__list">
+                                    <li class="custom-select__item">USD</li>
+                                    <li class="custom-select__item">EUR</li>
+                                    <li class="custom-select__item">RUB</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__select">
+                        <span class="footer__select-caption">
+                            Language
+                        </span>
+                        <div class="custom-select custom-select--footer">
+                            <div class="custom-select__top">English</div>
+                            <div class="custom-select__dropdown">
+                                <ul class="custom-select__list">
+                                    <li class="custom-select__item">Ukraine</li>
+                                    <li class="custom-select__item">Japane</li>
+                                    <li class="custom-select__item">Russian</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+              <div class="foooter__left"><small class="footer__copy">@2019 Zonex All rights reserverd</small></div>
+              <ul class="footer__right">
+                  <li class="footer__right-item"><img src="img/str-2/payments.png" alt="Mastercard"></li>
+                  <li class="footer__right-item"><img src="img/str-2/payments.png" alt="Mastercard"></li>
+                  <li class="footer__right-item"><img src="img/str-2/payments.png" alt="Mastercard"></li>
+              </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+        
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
